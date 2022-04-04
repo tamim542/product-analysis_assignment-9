@@ -1,38 +1,66 @@
 [
     {
-        "month": "Mar",
-        "investment": 100000,
-        "sell": 241,
-        "revenue": 10401
+        "name": "Tamim Bhuiyan",
+        "img": "https://i.ibb.co/09Xjf2V/black-luxury-sedan-road-114579-5072.webp",
+        "review": "This car is best for racing. But it's price very high. Long list of standard features means excellent value. Less small-item storage in cabin than some competitors",
+        "menimg":"https://i.ibb.co/QkZGJqX/1000-F-223507324-j-Kl7xbsa-Ed-Uj-Gr42-Wz-Qe-Saz-KRigh-VDU4.jpg",
+        "rating": 4.5
     },
     {
-        "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
-        "revenue": 24500
+        "name": "Rifat Islam",
+        "img": "https://i.ibb.co/4pQVwrj/red-luxury-sedan-road-114579-5079.webp",
+        "review":  "Long list of standard features means excellent value. Spacious and comfortable interior for large families. Attractive styling and high-quality interior materials. Less small-item storage in cabin than some competitors. Huge selection of engines including gasoline.",
+        "menimg":"https://i.ibb.co/wddwqyv/1000-F-232922056-g0v-Tm6q6681-Rcx-FVb-IUKMgmb-XWZ1o-YCL.jpg",
+        "rating": 4.3
     },
     {
-        "month": "May",
-        "investment": 500000,
-        "sell": 726,
-        "revenue": 67010
+        "name": "Tauhidul Bhuiyan",
+        "img": "https://i.ibb.co/dMzrwcn/blue-sport-sedan-parked-yard-114579-5078.webp",
+        "review": "Lots of standard advanced safety features. Comfortable ride quality Quiet and roomy cabin. Not a whole lot of headroom for a big sedan. Long list of standard features means excellent value.",
+        "menimg":"https://i.ibb.co/VDkDQ0r/1000-F-188777023-l0-Bzfx-SZL3-Qf-Xa24d-HX3-Sbx-ZUBOx0chb.jpg",
+        "rating": 5
     },
     {
-        "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
-        "revenue": 40405
+        "name": "Jahidul Beg",
+        "img": "https://i.ibb.co/grWT0sf/car-led-lights-realistic-composition-with-dark-silhouette-automobile-with-dimmed-headlights-shadows.webp",
+        "review": "Huge selection of engines including gasoline, diesel and hybrid options. Eye-popping maximum towing capacity, even from hybrid version. Easy-to-use infotainment system. Many available features, including onboard generator. Interior storage spots could be roomier or more versatile. Available hybrid powertrain is noisy when powering the available onboard generator.",
+        "menimg":"https://i.ibb.co/m9kK01F/1000-F-187175019-94o-OQ3-Td-Um-Onz9-K015k-Lki-AM4-TWzh2-Yh.jpg",
+        "rating": 4.5
     },
     {
-        "month": "Jul",
-        "investment": 600000,
-        "sell": 601,
-        "revenue": 50900
+        "name": "Rashed Khan",
+        "img": "https://i.ibb.co/6wbL6f5/yellow-sport-car-with-black-autotuning-road-114579-5051.webp",
+        "review": "Excellent range, performance and handling. Comfortable seating and lots of interior room. Access to Tesla's prolific Supercharger fast-charging stations. Touchscreen interface can lead to driver distraction. No Android Auto or Apple CarPlay support.",
+        "menimg":"https://i.ibb.co/rZGgvY8/1000-F-214341140-c-Uj-NBCGM9-I3si-Ll-Zx-JS0-FXq-VOGb-Mr-C2-K.jpg",
+        "rating": 4
     },
     {
-        "month": "Aug",
-        "investment": 700000,
-        "sell": 670,
-        "revenue": 61000
+        "name": "Mosiur Rahman",
+        "img": "https://i.ibb.co/KVnM0k7/red-mini-coupe-driving-highway-114579-4059.webp",
+        "review": "Versatile and roomy interior. Smooth and compliant ride in most conditions. Better fuel economy than most rivals. Many clever storage compartments. Collision warning and adaptive cruise control are overly sensitive. Third-row access is narrow. Higher starting price than many other rival SUVs.",
+        "menimg":"https://i.ibb.co/mF2WgtL/1000-F-168801662-w-YJk-Ds-H3to-Qh-Eaib4-Li-XIu7x485dop7a.jpg",
+        "rating": 4.5
+    },
+    {
+        "name": "Rabby Khan",
+        "img": "https://i.ibb.co/sHGbFHP/luxury-sport-car-with-xenon-lights-front-view-114579-5062.webp",
+        "review": "Powerful V8 engines available, including the one for 707-hp Hellcat. Trim levels and graphics packages allow for plenty of personalization. Infotainment is user-friendly and features a large touchscreen. V8 engines can be thirsty when driven with enthusiasm. Sloping roofline impedes visibility and backseat access. In fit and finish, it lags some competitors.",
+        "menimg":"https://i.ibb.co/2hB7FyD/1000-F-187175039-TROEKv1-Sl-O8-DJ9-Mqi-CNwa-Yijq-QDVZTos.jpg",
+        "rating": 3.5
+    },
+    {
+        "name": "Shovu Talukdar",
+        "img": "https://i.ibb.co/mR1p5dv/car-parking-road-sun-set-background-10541-3979.webp",
+        "review": "Smooth power from turbocharged V6 engine. Easy-to-use controls. Standard composite bed limits dents and scratches. Available 14-inch touchscreen looks great. Base engine returns subpar fuel economy in our testing. No trick tailgate options like on some rivals",
+        "menimg":"https://i.ibb.co/BjHq9pZ/1000-F-178340227-Aqv1-Pjx6n-MAAk-Liieky-Tj81l-CBq-Ctk0u.jpg",
+        "rating": 5
+    },
+    {
+        "name": "Sagor Hossain",
+        "img": "https://i.ibb.co/vwJSw5Z/closeup-shot-white-car-dark-background-181624-20300.webp",
+        "review": "Driving range of 258 miles. Quick acceleration and sharp handling make it fun to drive. Comfortable and quiet cabin. Plenty of standard tech features. Tight rear legroom. Availability limited to a handful of states.",
+        "menimg":"https://i.ibb.co/h8jjTvX/1000-F-143803192-WQl-Tx45-VH1x9-En-Lyd-Awhacn-AOU27vc5-H.jpg",
+        "rating": 4
     }
+    
 ]

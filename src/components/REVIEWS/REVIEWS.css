@@ -1,0 +1,13 @@
+.img-size{
+    width: 220px;
+    height: 148px;
+}
+.men-img{
+    width: 10%;
+    border-radius: 50%;
+}
+.cart-design{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+}
