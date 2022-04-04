@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import DASHBOARD from '../DASHBOARD/DASHBOARD';
 
 const BLOGS = () => {
+   
     return (
         <div>
-            <h1>hi i am blogs page</h1>
+            
+           <h1>blog kaje lagbe</h1>       
         </div>
     );
 };

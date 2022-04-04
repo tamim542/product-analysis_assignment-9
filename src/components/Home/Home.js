@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useCart from '../../Hooks/useCart';
-import Reviews from '../Reviews/Reviews';
+//import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
