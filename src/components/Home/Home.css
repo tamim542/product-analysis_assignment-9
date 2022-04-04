@@ -1,0 +1,38 @@
+.heading{
+    text-align: center;
+    color: rgba(17, 3, 56, 0.925);
+}
+.heading1{
+    text-align: center;
+    color: rgba(11, 0, 165, 0.753);
+}
+.home-page{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+}
+.home-img{
+    margin-left: 60px;
+}
+.line-gap{
+    line-height:.5;
+}
+.button-design{
+    margin-top: 20px;
+    margin-left: 220px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  border: 3px; 
+  background-color: #95cebb;
+  border-radius: 3px;
+}
+.button-design:hover{
+    background-color: #16ac7a;
+}
+.paragraph{
+    margin-top: 40px;
+}
