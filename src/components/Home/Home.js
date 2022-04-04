@@ -1,7 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import useCart from '../../Hooks/useCart';
+import Reviews from '../Reviews/Reviews';
 import './Home.css';
 
 const Home = () => {
+
+    const [cart,setCart]=useCart();
+    const subCart=cart.slice(0,3);
+
+   
+
     return (
         <div>
            
@@ -18,6 +27,27 @@ const Home = () => {
                 <img src='https://i.ibb.co/RPC4H9f/white-front-cars-running-road-37416-48.webp' alt=''></img>
                 </div>
             </div>
+            <h1 className='customer-review'>Customer Reviews</h1>
+
+           {/*------ cart design ------*/}
+
+            <div className='cart-design'>
+           {
+                subCart.map(
+                    cart1=><div className="cart-border"><p>Name: {cart1.name}</p>
+                    <p>{cart1.review}</p>
+                    <img className='img-size' src={cart1.img} alt=''></img>
+                    <p className='avata-rating'> <img className='men-img' src={cart1.menimg} alt=''></img><span className='span-tag'>Rating:{cart1.rating}</span></p>
+                    </div>
+                          
+                    )
+            }
+            
+
+           </div>
+
+           <Link  to="/reviews"><p className='button-center'><button className='reviews-button'>See All Reviews</button></p></Link> 
+            
         </div>
     );
 };

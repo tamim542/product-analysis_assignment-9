@@ -6,8 +6,25 @@
     width: 10%;
     border-radius: 50%;
 }
+
 .cart-design{
+    margin:80px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 10px;
+    grid-gap: 40px;
+}
+.avata-rating{
+    display: flex;
+    align-items: center;
+   
+}
+.span-tag{
+    padding-left: 40px;
+}
+.cart-border{
+    padding: 15px;
+    border: 1px solid #49534b1f;
+    box-shadow:5px 5px 5px gray;
+    border-radius: 3px;
+
 }

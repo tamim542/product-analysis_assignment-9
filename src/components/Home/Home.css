@@ -36,3 +36,65 @@
 .paragraph{
     margin-top: 40px;
 }
+
+/*----------------
+      cart
+----------------*/
+
+.img-size{
+    width: 220px;
+    height: 148px;
+}
+.men-img{
+    width: 10%;
+    border-radius: 50%;
+}
+
+.cart-design{
+    margin:80px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.avata-rating{
+    display: flex;
+    align-items: center;
+   
+}
+.span-tag{
+    padding-left: 40px;
+}
+.cart-border{
+    padding: 15px;
+    border: 1px solid #49534b1f;
+    box-shadow:5px 5px 5px gray;
+    border-radius: 3px;
+
+}
+.customer-review{
+    margin-top: 120px;
+    text-align: center;
+}
+
+/*---------------- 
+     Button 
+-----------------*/
+.button-center{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.reviews-button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #6f9fbe;
+    border: 3px; 
+    border-radius: 5px;
+ 
+}
+.reviews-button:hover{
+    background-color: rgb(31, 47, 189);
+    border: 3px; 
+    border-radius: 5px;
+}
