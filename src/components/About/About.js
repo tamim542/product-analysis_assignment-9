@@ -1,24 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import DASHBOARD from '../DASHBOARD/DASHBOARD';
+import React  from 'react';
 
-const About = () => {
-//     const [revenues,setRevenue]=useState([]);
-//     useEffect(()=>{
-//         fetch('Review.json')
-//         .then(res=>res.json())
-//         .then(data=>setRevenue(data))
-        
-//     },[])
-//  //console.log(revenues);
-//     return (
-//         <div>
-//             <h1>hi i am about page</h1>
 
-//             {
-//                 revenues.map(revenue1=><DASHBOARD revenue2={revenue1}></DASHBOARD>)
-//             }
-//         </div>
-//     );
+const About = (props) => {
+    console.log(props);
+    const {month, investment, sell, revenue}=props.revenue1;
+  
+    return (
+        <div>
+            <h1>hi there am i</h1>
+            <h1>{month}</h1>
+
+        </div>
+    );
 };
 
 export default About;
