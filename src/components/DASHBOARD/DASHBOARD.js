@@ -74,9 +74,7 @@ const DASHBOARD = () => {
           <Pie data={data2} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
         </PieChart>
         </div>
-        {
-          revenues.map(rev=><About revenue1={rev}></About>)
-        }
+            
         </div>
     );
 };
